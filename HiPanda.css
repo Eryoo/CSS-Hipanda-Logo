@@ -1,0 +1,280 @@
+.HiPanda-warpper {
+    position: absolute;
+    width: 500px;
+    height: 800px;
+    left: 50%;
+    margin-left: -250px;
+}
+
+.HiPandaHeadWarrper {
+    position: absolute;
+    width: 312px;
+    height: 312px;
+    left: 50%;
+    margin-left: -156px;
+    top: 10%;
+}
+
+.HiPanda-face {
+    width: 280px;
+    height: 280px;
+    border-radius: 300px;
+    border: 10px solid #000;
+    background: #fff;
+}
+
+.HiPanda-rightEye,
+.HiPanda-leftEye {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 25px solid #000;
+    background: #fff;
+}
+
+.HiPanda-leftEye {
+    left: 30px;
+    top: 100px;
+}
+
+.HiPanda-rightEye {
+    right: 30px;
+    top: 100px;
+}
+
+.whiteBlock {
+    width: 120px;
+    height: 50px;
+    background: #fff;
+    position: absolute;
+}
+
+.HiPanda-leftEye .whiteBlock {
+    top: -24px;
+    left: -20px;
+    transform: rotate(25deg);
+}
+
+.HiPanda-rightEye .whiteBlock {
+    top: -24px;
+    left: -40px;
+    transform: rotate(-25deg);
+}
+
+.eye {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -17px;
+    background: #000
+}
+
+
+
+/*鼻子*/
+
+.HiPanda-nose {
+    position: absolute;
+    top: 182px;
+    left: 50%;
+    margin-left: -7px;
+    height: 30px;
+    width: 14px;
+    border-radius: 50%;
+    background: #000;
+    transform: rotate(90deg);
+}
+
+
+/*嘴*/
+
+.Hipanda-mouth {
+    width: 154px;
+    height: 8px;
+    background: #000;
+    position: absolute;
+    border-radius: 4px;
+    bottom: 65px;
+    left: 50%;
+    margin-left: -77px;
+}
+
+.ear {
+    width: 110px;
+    height: 110px;
+    background: #000;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -2;
+}
+
+.ear.left {
+    top: -20px;
+    left: -14px;
+}
+
+.ear.right {
+    top: -20px;
+    right: -14px;
+}
+
+
+
+/*身体*/
+
+.bodyWarpper {
+    position: absolute;
+    top: 400px;
+    width: 260px;
+    height: 240px;
+    left: 50%;
+    margin-left: -130px;
+}
+
+
+
+/*胳膊*/
+
+.arm {
+    width: 140px;
+    height: 30px;
+    background: #000;
+    position: absolute;
+    border-radius: 100% 60% 60% 100%;
+}
+
+.arm.left {
+    left: -32px;
+    top: 10px;
+    transform: rotate(-70deg);
+}
+
+.arm.right {
+    right: -32px;
+    top: 10px;
+    transform: rotate(-105deg);
+}
+
+.hand {
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border-radius: 100%;
+    border: 13px solid #000;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+}
+
+.arm.right .hand {
+    margin-bottom: -10px;
+}
+
+.arm.left .hand {
+    margin-bottom: -14px;
+}
+
+.belly {
+    background: #000;
+    width: 180px;
+    height: 172px;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    margin-left: -90px;
+    z-index: -1;
+    border-radius: 20% 20% 50% 50%;
+}
+
+.shorts {
+    background: #fff;
+    width: 155px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    margin-left: -77.5px;
+    top: 66px;
+}
+
+.shortsLyaer {
+    position: absolute;
+    background: #000;
+    width: 166px;
+    height: 35px;
+    left: 50%;
+    margin-left: -83px;
+    border-radius: 50%;
+    top: -16px;
+}
+
+.leftfoot {
+    width: 80px;
+    height: 62px;
+    background: #000;
+    position: absolute;
+    bottom: 87px;
+    left: 38px;
+    border-radius: 0 100% 25% 60%
+}
+
+.leftfoot:after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 40px;
+    background: #000;
+    top: -30px;
+}
+
+.rightfoot {
+    width: 80px;
+    height: 62px;
+    background: #000;
+    position: absolute;
+    bottom: 87px;
+    right: 38px;
+    border-radius: 100% 0 60% 25%;
+}
+
+.rightfoot:after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 40px;
+    background: #000;
+    top: -30px;
+    right: 0
+}
+
+
+
+
+/**/
+
+.HiPanda-warpper:hover .Hipanda-mouth {
+    border-radius: 100%;
+    height: 50px;
+    bottom: 52px;
+}
+
+.HiPanda-warpper:hover .HiPanda-rightEye .whiteBlock,
+.HiPanda-warpper:hover .HiPanda-leftEye .whiteBlock {
+    display: none
+}
+
+.text {
+    width: 100%;
+    height: 50px;
+    color: #000;
+    position: absolute;
+    bottom: 150px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: monospace;
+}
